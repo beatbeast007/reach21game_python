@@ -1,0 +1,11 @@
+a = int(input("Enter first number:"))
+b = int(input("Enter second number:"))
+c = int(input("Enter third number:"))
+sum = a+b+c
+print(sum)
+
+if sum == 21:
+ print("CORRECT")
+ 
+else:
+ print("ERROR")
